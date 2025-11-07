@@ -1,0 +1,17 @@
+GET http://localhost:4000/health
+
+GET http://localhost:4000/products
+
+GET http://localhost:4000/products?category=Apparel
+
+POST http://localhost:4000/products
+Content-Type: application/json
+
+{
+  "name":"Water Bottle",
+  "priceCents":1299,
+  "imageUrl":"https://picsum.photos/seed/bottle/600/400",
+  "category":"Accessories",
+  "inStock":true,
+  "variants":["500ml","1L"]
+}

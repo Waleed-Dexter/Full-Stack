@@ -1,0 +1,15 @@
+# API
+product-api/node_modules/
+product-api/dist/
+product-api/.env
+product-api/dev.db
+product-api/prisma/dev.db
+
+# UI
+product-ui/node_modules/
+product-ui/dist/
+product-ui/.env
+
+# Common
+npm-debug.log*
+.DS_Store

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+dev.db
+prisma/dev.db
+*.sqlite
+npm-debug.log*
+.DS_Store
